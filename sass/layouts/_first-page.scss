@@ -1,0 +1,34 @@
+.first-page {
+    text-align: center;
+    display: flex;
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+
+.first_page_container {
+    display: block;
+}
+
+.first_page_title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3636;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
+
+    /*геометрия*/
+    display: block;
+
+    min-width: 696px;
+    margin-bottom: 30px;
+}
+
+.first-page {
+    background: #2f303a;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../img/photo_page_1/bg-img.jpg);
+    background-repeat: no-repeat;
+    max-width: 1600px;
+}

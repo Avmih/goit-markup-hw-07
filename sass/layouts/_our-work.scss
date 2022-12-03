@@ -1,0 +1,50 @@
+.our-work {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.work-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+    /*геометрия*/
+    margin-bottom: 50px;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.work-foto-list {
+    display: flex;
+    gap: 30px;
+}
+
+.work-foto-list {
+    width: calc((100% - 60px) / 3);
+
+
+}
+
+.work-foto {
+    position: relative;
+}
+
+.foto_description {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 70px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: #2F303A;
+    opacity: 0.8;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1428;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white);
+}

@@ -1,0 +1,101 @@
+.our-team {
+    padding-bottom: 94px;
+    padding-top: 94px;
+    background-color: var(--gray_1);
+}
+
+.our_team_title {
+    font-size: 36px;
+    line-height: 1.1666;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black_1);
+    margin-bottom: 50px;
+}
+
+.our_team_foto {
+    width: calc((100% - 90px) / 3);
+}
+
+.our_team_list {
+    display: flex;
+    gap: 30px;
+}
+
+/*векторна графіка*/
+
+.com_soc_list {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    gap: 10px;
+}
+
+.com_soc_item {
+    width: 44px;
+    height: 44px;
+}
+
+.com_soc_link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: var(--icon_color);
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+        &:focus {
+            background-color: var(--brand-color);
+        }
+    
+        &:hover,
+        &:focus.com_soc_icon {
+            fill: var(--white);
+        }
+}
+
+/*
+.com_soc_link:hover,
+.com_soc_link:focus {
+    background-color: var(--brand-color);
+}
+
+.com_soc_link:hover,
+.com_soc_link:focus.com_soc_icon {
+    fill: var(--white);
+}*/
+
+.team_text {
+    background-color: var(--white);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our_team_people {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black_1);
+
+    /*геометрия*/
+
+    margin-bottom: 10px;
+}
+
+.our_team_job {
+    font-size: 16px;
+    line-height: 1.1875;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--gray);
+}

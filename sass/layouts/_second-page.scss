@@ -1,0 +1,53 @@
+.current {
+    color: var(--brand-color);
+}
+
+.second-page {
+    padding-top: 94px;
+}
+
+.second_page_description {
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+    color: var(--gray);
+    min-width: 270px;
+
+    /*геометрия*/
+    margin-top: 10px;
+}
+
+.about-title {
+    display: flex;
+}
+
+.second_list {
+    margin-right: 30px;
+    
+    &:last-child {
+            margin-right: 0;
+        }
+}
+
+.sec_list_icon {
+    display: flex;
+    background-color: var(--gray_1);
+    width: 270px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.sec_icon {
+    width: 70px;
+    height: 70px;
+}
+
+.second_page_list {
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
