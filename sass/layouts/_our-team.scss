@@ -1,10 +1,10 @@
-.our-team {
+.our__team {
     padding-bottom: 94px;
     padding-top: 94px;
     background-color: var(--gray_1);
 }
 
-.our_team_title {
+.our__team__title {
     font-size: 36px;
     line-height: 1.1666;
     text-align: center;
@@ -13,30 +13,30 @@
     margin-bottom: 50px;
 }
 
-.our_team_foto {
+.our__team__foto {
     width: calc((100% - 90px) / 3);
 }
 
-.our_team_list {
+.our__team__list {
     display: flex;
     gap: 30px;
 }
 
 /*векторна графіка*/
 
-.com_soc_list {
+.our__soc__list {
     display: flex;
     justify-content: center;
     margin-top: 16px;
     gap: 10px;
 }
 
-.com_soc_item {
+.our__soc__item {
     width: 44px;
     height: 44px;
 }
 
-.com_soc_link {
+.our__soc__link {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -54,23 +54,12 @@
         }
     
         &:hover,
-        &:focus.com_soc_icon {
+        &:focus.our__soc__icon {
             fill: var(--white);
         }
 }
 
-/*
-.com_soc_link:hover,
-.com_soc_link:focus {
-    background-color: var(--brand-color);
-}
-
-.com_soc_link:hover,
-.com_soc_link:focus.com_soc_icon {
-    fill: var(--white);
-}*/
-
-.team_text {
+.our__team__text {
     background-color: var(--white);
     padding-top: 30px;
     padding-bottom: 30px;
@@ -79,7 +68,7 @@
     border-radius: 0px 0px 4px 4px;
 }
 
-.our_team_people {
+.our__team__people {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1875;
@@ -92,7 +81,7 @@
     margin-bottom: 10px;
 }
 
-.our_team_job {
+.our__team__job {
     font-size: 16px;
     line-height: 1.1875;
     text-align: center;

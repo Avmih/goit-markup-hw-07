@@ -1,12 +1,12 @@
-.current {
+/*.current {
     color: var(--brand-color);
-}
+}*/
 
-.second-page {
+.second__page {
     padding-top: 94px;
 }
 
-.second_page_description {
+.second__page__description {
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
@@ -17,11 +17,11 @@
     margin-top: 10px;
 }
 
-.about-title {
+.second__page__title {
     display: flex;
 }
 
-.second_list {
+.second__page__list {
     margin-right: 30px;
     
     &:last-child {
@@ -29,7 +29,7 @@
         }
 }
 
-.sec_list_icon {
+.second__page__icons {
     display: flex;
     background-color: var(--gray_1);
     width: 270px;
@@ -40,14 +40,15 @@
     border-radius: 4px;
 }
 
-.sec_icon {
+.second__page__icon {
     width: 70px;
     height: 70px;
 }
 
+/* *не впевнений що це потрібно писати*
 .second_page_list {
     font-size: 14px;
     line-height: 1.1428;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
+}*/

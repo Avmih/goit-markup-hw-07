@@ -1,9 +1,9 @@
-.our-work {
+.work {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.work-title {
+.work__title {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -16,22 +16,22 @@
     text-align: center;
 }
 
-.work-foto-list {
+.work__foto__list {
     display: flex;
     gap: 30px;
 }
 
-.work-foto-list {
+.work__foto__list{
     width: calc((100% - 60px) / 3);
 
 
 }
 
-.work-foto {
+.work__foto {
     position: relative;
 }
 
-.foto_description {
+.work__foto__description {
     position: absolute;
     bottom: 0%;
     width: 100%;

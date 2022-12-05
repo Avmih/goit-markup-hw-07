@@ -1,9 +1,9 @@
-.menu {
+.portfolio__menu {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.buttom_list {
+.buttom__list {
     /*геометрия*/
 
     display: flex;
@@ -11,7 +11,7 @@
     margin-bottom: 50px;
 }
 
-.menu_button {
+.button__item {
     font-weight: 500;
     font-size: 16px;
     font-family: inherit;
@@ -43,39 +43,31 @@
         }
 }
 
-/*
-.menu_button:focus,
-.menu_button:hover {
-    color: var(--white);
-    background-color: var(--brand-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-        0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
 
 
-}*/
-
-.section_button,
-.menu_button {
+.button__section,
+.button__item {
     cursor: pointer;
 }
 
-.section_button {
+.button__section {
     border: none;
     background-color: var(--white);
 }
 
-.pic_list {
+
+
+.picture__list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.pic_item {
-    width: calc((100% - 60px) / 3);
-}
+/*.pic_item {
+   width: calc((100% - 60px) / 3);
+}*/
 
-.pic_link {
+.picture__link {
     transition-property: box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -89,21 +81,13 @@
 
 }
 
-/*
-.pic_link:hover {
-    display: block;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-        1px 4px 6px rgba(0, 0, 0, 0.16);
-}
 
-*/
-
-.pic_img {
+.picture__img {
     position: relative;
     overflow: hidden;
 }
 
-.text_section {
+.picture__text {
     position: absolute;
     top: 0;
     left: 0;
@@ -113,11 +97,11 @@
     opacity: 0.9;
     transition-property: transform;
 
-    .pic_link:hover & {
+    .picture__link:hover & {
             transform: translateY(0);
         }
     
-        .pic_link:focus & {
+        .picture__link:focus & {
             transform: translateY(0);
         }
 
@@ -140,12 +124,12 @@
 
 
 
-.border_pic {
+.picture__border {
     border: 1px solid var(--gray_1);
     padding: 20px 24px;
 }
 
-.section_description {
+.picture__description {
     font-size: 18px;
     line-height: 1.9444;
     letter-spacing: 0.06em;
@@ -154,7 +138,7 @@
     white-space: nowrap;
 }
 
-.section_text {
+.picture__undertext {
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
