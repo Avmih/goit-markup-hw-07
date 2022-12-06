@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.first__page__button {
+.button {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -13,39 +13,6 @@
   border: none;
   cursor: pointer;
   /*геометрия*/
-  display: inline;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  min-width: 216px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.footer-button {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.06em;
-  color: var(--white);
-  background: var(--brand-color);
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-  /*геометрия*/
-  display: inline;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  min-width: 200px;
-  min-height: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 28px;
-  position: relative;
 }
 
 .logo {
@@ -450,6 +417,20 @@ textarea {
 }
 .footer__input:focus {
   outline: 1px solid var(--brand-color);
+}
+
+.footer--button {
+  /*геометрия*/
+  display: inline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 200px;
+  min-height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 28px;
+  position: relative;
 }
 
 .footer__form__icon {
@@ -1101,6 +1082,20 @@ textarea {
   outline: 1px solid var(--brand-color);
 }
 
+.footer--button {
+  /*геометрия*/
+  display: inline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 200px;
+  min-height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 28px;
+  position: relative;
+}
+
 .footer__form__icon {
   position: absolute;
   fill: var(--white);
@@ -1227,6 +1222,16 @@ textarea {
     display: block;
 }
 */
+.first__page--button {
+  display: inline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 216px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .first__page__title {
   font-weight: 900;
   font-size: 44px;
